@@ -3,7 +3,6 @@
 ## html
 
 Text: <h1, 3, 4, 5,>, <p> <em> <b> <i>
-Image: <img src='sjdnsjd'>
 Interactive: <button> <select>
 Abstract building blocks: <div> # box
 
