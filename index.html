@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Portfolio</title>
-        <body>
-            <h1>First heading!</h1>
-            <p>First paragraph</p>
-            <a href="https://www.linkedin.com/in/sophie-wang-6050a5185/">
-            Linkedin</a>
-        </body>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Montserrat'>
     </head>
+    <body>
+        <div id="root">
+            <header>
+                <div class="navbar-right">
+                <ul class="navbar">
+                    <li><a class="navbar" href="Projects.html"> Projects</a></li>
+                    <li><a class="navbar" href="About.html"> About</a></li>
+                </ul>
+                </div>
+            </header>
+
+            
+            <div>  
+                <img src="pictures/home/board.png" width="1233" height="662.5">
+            </div>
+
+
+            <div class="grid-container">
+                <div class="project-row">
+                    <div>
+                        <img src="pictures/home/whiteboard.png" width ="536" height="315" align="left"/>
+                    </div>
+                    <div class="project-more-details left-align">
+                        <div class="home-title">Whiteboard</div>
+                        <div>Helping individuals maximize productivity and plan their lives through a highly-customizable web application.  </div>
+                        <div>
+                            <img src="pictures/home/Whiteboard_doodles.svg" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-row">
+                    <div class="project-more-details right-align">
+                        <div class="home-title">Connect</div>
+                        <div>Allowing people to create shared experiences with others by overcoming physical and logistical complications.</div>
+                        <div>
+                            <img src="pictures/home/Connect_doodles.svg" />
+                        </div>
+                    </div>
+                    <div>
+                        <img src="pictures/home/connect.png" width ="445" height="376" align="right"/>
+                    </div>
+                </div>
+
+                <div class="project-row">
+                    <div>
+                        <img src="pictures/home/engs.gif" width ="536" height="315" align="left"/>
+                    </div>
+                    <div class="project-more-details left-align">
+                        <div class="home-title">Gas Pump Cleaner</div>
+                        <div>Building a device to create a safe and sanitized gas pumping experience amid a pandemic. </div>
+                        <div>
+                            <img src="pictures/home/Engs_doodles.svg" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
 </html>
