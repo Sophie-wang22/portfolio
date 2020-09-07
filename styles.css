@@ -229,6 +229,14 @@ width: 45%;
   flex-direction: row
 }
 
+.phone-screen-image-row {
+  flex-direction: row
+}
+
+.small-phone-screen-image-row {
+  flex-direction: row
+}
+
 .case-study-images-caption {
   object-fit: contain;
   padding-top: 50px;
@@ -239,6 +247,27 @@ width: 45%;
   padding: 20px;
 }
 
+.case-study-doodle-captions {
+  font-size: 14px;
+  padding: 20px;
+  font-family: 'Arvo', serif;
+}
+
 .case-study-links {
   text-decoration: none;
+}
+
+.case-study-video {
+  padding: 20px;
+}
+
+.case-study-quote {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
 }
