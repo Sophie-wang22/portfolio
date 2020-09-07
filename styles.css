@@ -7,6 +7,7 @@ div {
 }
 nav {
   width: 100%; 
+  background-color:#EBF1F4;
 }
 
 body {
@@ -42,7 +43,7 @@ align-items: center;
 /** Navbars **/
 .home-navbar {
   display: flex;
-  padding: 0px 150px;
+  padding: 0px 130px;
   justify-content: flex-end;
 }
 
@@ -52,37 +53,47 @@ align-items: center;
 
 .home-navbar a {
   color: #3E3E3F;
-  padding: 30px 16px;
+  padding: 30px 30px;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 23px;
   text-decoration: none;
 }
 
 .home-navbar a:hover {
-  background-color: #EBF1F4;
   color: #7C7CFF;
 }
-  
-.home-board {
-z-index: 5;
-padding-top: 20px;
-padding-bottom: 85px;
+
+.navbar {
+  display: flex;
+  padding: 0px 130px;
+  justify-content: flex-end;
+}
+
+.navbar a:first-child{
+  margin-right: auto;
 }
 
 .navbar a {
-  float: left;
   color: #3E3E3F;
-  text-align: center;
-  padding: 30px 16px;
+  padding: 30px 30px;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 23px;
   text-decoration: none;
-  background-color: #EBF1F4;
 }
 
 .navbar a:hover {
   color: #7C7CFF;
 }
+
+.navbar-logo {
+  padding-top: 30px
+}
+
+.home-board {
+  z-index: 5;
+  padding-top: 10px;
+  padding-bottom: 85px;
+  }
 
 
 /** Footer **/
@@ -229,24 +240,47 @@ width: 45%;
 
 .case-study-header-text{
   justify-content: flex-start;
-  margin: 0px 200px;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 0px;
   font-size: 30px;
-  font-weight: 600px;
+  font-weight: 600;
 }
 
 .case-study-subheader-text{
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-left:200px;
+  margin-right: 200px;
   font-size: 18px;
-  font-weight: 600px;
-  padding: 20px;
+  font-weight: 600;
 }
 
 .case-study-images {
-  object-fit: contain; 
+  padding-top: 50px;
+  padding-bottom: 50px
+}
+
+.case-study-images-with-cap {
+  padding-top: 50px;  
+}
+
+.case-study-images-caption {
+  object-fit: contain;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .case-study-image-row {
   flex-direction: row;
-  margin: 0px 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.case-study-image-row-index {
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .phone-screen-image-row {
@@ -255,11 +289,6 @@ width: 45%;
 
 .small-phone-screen-image-row {
   flex-direction: row
-}
-
-.case-study-images-caption {
-  object-fit: contain;
-  padding-top: 50px;
 }
 
 .case-study-captions {
