@@ -29,7 +29,9 @@ align-items: center;
 
 .right-align {
   align-items: flex-end;
+  text-align: right;
 }
+
 
 /** Navbars **/
 

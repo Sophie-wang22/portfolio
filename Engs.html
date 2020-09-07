@@ -2,6 +2,265 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Montserrat'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
     </head>
+
+    <body>
+        <div id="root">
+            <header>
+                <div class="navbar">
+                    <a href="Index.html"> Home </a>
+                    <div class="navbar-right">
+                        <a href="Projects.html">Projects</a>
+                        <a href="About.html">About</a>
+                    </div>
+                </div>
+            </header>
+
+            <div class="grid-container">
+                <div class="case-study-context-bar"><img src="pictures/Engs/context 11.05.52 PM.svg"></div>
+            </div>
+            <div class="case-study-header-text">Final Prototype Preview</div>
+            <div class="case-study-images"><img src="pictures/Engs/engs.gif"></div>
+            <div class="case-study-doodle-captions">
+                The gas pump cleaner: A plastic frame that sits around the gas pump handle and automatically sanitzes it with ethanol once it’s been returned
+            </div>
+
+            <div class="case-study-header-text">Improving life outdoors</div>
+            <div class="case-study-body-text">
+                <p>
+                Introduction to Engineering is a project-based class at Dartmouth College, where students work in groups to design a product over the course 
+                of 10 weeks. During Summer 2020, our class was challenged to <b>design a product that improves life outdoors. </b>
+                </p>
+            </div>
+            <div class="case-study-body-text">
+                <p>
+                    So, how did we get from improving life outdoors to sanitizing gas stations? We started by compiling a list of problems we have encountered 
+                    or witnessed people encountering while outdoors. As we narrowed down our focus, we kept coming back to one main problem theme: <b>sanitation 
+                    of outdoor shared systems.</b> We realized that many of the outdoor interactions we used to conudct so mindlessly - bike sharing, using ATM machines, 
+                    getting shopping carts - had all changed recently due to the COVID-19 pandemic. 
+                </p>
+            </div>
+
+            <div class="case-study-images"><img src="pictures/Engs/Mind-map.svg"></div>
+            <div class="case-study-body-text">
+                In the end, we chose gas station sanitation as our problem, as we all bonded over the agressive amounts of hand sanitizer we would use after going 
+                to the gas station to get gas. We thought that this issue was extremely time-relevant, but it also had public health benefits beyond the COVID-19 pandemic. 
+                As more gas stations adopt mobile free payment systems, we recognized that a clean gas pump handle was the missing piece to a completely sanitary gas station experience. 
+            </div>
+
+            <div class="case-study-header-text">But does anyone care about sanitation? </div>
+            <div class="case-study-subheader-text">Interviewing gas stations</div>
+            <div class="case-study-body-text">
+                <p>
+                    Our first step to tackling the problem was to conduct user research with stakeholders that might be interested in our product. We started by interviewing gas 
+                    station employees, to understand the key issues with current sanitation methods. We interviewed a total of <b>15 different gas stations,</b> from small family owned 
+                    gas stations to large grocery store chains such as Costco. From our interviews, we drew four key insights: 
+                </p>
+            </div>
+            <div class="case-study-images"><img src="pictures/Engs/Sticky-notes.svg"></div>
+            <div class="case-study-captions">Key user testing insights</div>
+
+            <div class="case-study-body-text">
+                <p>
+                Many of the gas stations were limited to when they could sanitize due to <b>low employee availability</b> and <b>high customer traffic.</b> 
+                At peak hours - when sanitation is most necessary - employees are unable to sanitize the gas pump handles as it slows down 
+                business. Further, many gas stations only have 1-2 employees, so finding time during the day to sanitize isn’t always an option. 
+                </p>
+            </div>
+
+            <div class="case-study-body-text">
+                <p>
+                    One conversation with a Mobil gas station employee really clarified why current sanitation methods don’t satisfy the root problem. 
+                    This employee was a small business owner, and he said the reason he doesn’t provide free sanitation materials (gloves, hand sanitizer, etc.) 
+                    to his customers is that <b>people often steal them.</b> While he wants to ensure that his customers are safe, the high cost of sanitation materials 
+                    (especially if stolen) combined with lower customer demand has kept him from providing such offerings. 
+                
+                </p>
+            </div>
+
+            <div class="case-study-subheader-text">Interviewing car drivers</div>
+            <div class="case-study-body-text">
+                <p>
+                    We also wanted to interview car drivers, to understand customer behavior and how they feel about the current state of gas station sanitation. 
+                    <b>From a survey to 60 people, we found the following results: </b>
+                </p>
+            </div>
+
+            <div class="case-study-images"><img src="pictures/Engs/survey-results.svg"></div>
+            <div>
+                <p>
+                    From our user survey, it became clear to us that individuals valued sanitation. Not only were people willing to go out of their way to get 
+                    gas at a sanitized gas station, but they were even willing to pay more per gallon if the handle was completely sanitized. Thus, a disocnnect 
+                    was identified and our problem statement was born: <b>People value sanitation, yet due to cost and logistical limitations, gas stations are unable to provide it.</b>
+                </p>
+            </div>
+
+            <div class="case-study-header-text">So, how do we clean a gas pump handle? </div>
+            <div class="case-study-body-text">
+                <p>
+                    Once we narrowed down our problem, it was time to start solution thinking! We began by listing the main principles (specifications) for our product. 
+                    We focused on both the interests of car drivers (safety, speed) and gas stations (low-maintenance, affordable). 
+                </p>
+            </div>
+            <div class="case-study-subheader-text">Our product must be . . . </div>
+            <div class="case-study-images"><img src="pictures/Engs/specs.svg"></div>
+            <div class="case-study-captions">Product specifications</div>
+
+            <div class="case-study-body-text">
+                <p>
+                    From these specifications, we created an alternatives matrix of different solutions. Our ideas ranged from robot gas attendants to a completely redesigned 
+                    gas fill mechanism. After exploring these options, we decided to prototype two main ideas. The first alternative idea was a <b>pump cleaning box,</b> sort of like 
+                    a car wash but for the gas nozzle. The second idea was a <b>plastic covering around the gas pump handle,</b> similar to the revolving toilet seat liners that are 
+                    often found in airport restrooms. 
+                </p>
+            </div>
+
+            <div class="case-study-image-row">
+                <div><img src="pictures/Engs/cleaning-box.svg"></div>
+                <div><img src="pictures/Engs/revolving-plastic.svg"></div>
+            </div>
+
+            <div class="case-study-body-text">
+                After creating basic prototypes of both these solutions, we realized that the second solution had two main limitations. First, the shape of the gas pump 
+                handle is much more irregular than a toilet seat, so covering the parts where an individual grasps the handle is extremely difficult. Second, by using 
+                a paper or plastic liner, our solution will likely waste a lot of either material, since the liner will have to be replaced after every use. Thus,
+                 we decided that a cleaning box solution was the best alternative for us to go with. 
+            </div>
+
+            <div class="case-study-header-text">Building the structure</div>
+            <div class="case-study-body-text">
+                Once we decided that we were going to go with a “cleaning box” solution, we had to figure out how we were going to build this solution. Moreover, 
+                we needed to figure out what materials we wanted to use while keeping our principles in mind. 
+            </div>
+
+            <div class="case-study-body-text">
+                <p>
+                Over the next few weeks, we interviewed seven different professors and machine shop instructors from the Thayer Engineering School, learning about polymers to 
+                construct the box, cleaning mechanisms, and ways to supply to power to our cleaning box. After talking with Zach Holcomb, <b>an engineering manager at Huksy </b>
+                (one of the largest gas nozzle manufacturers in the US), we determined that an ethanol spray solution would be the best cleaning mechanism, since it 
+                doesn’t corrode the pump handles. Further, Zach recommended that we use acetal plastic for the exterior of our product, since it is an industry standard and is injection moldable for mass manufacturing. 
+                </p>
+            </div>
+
+            <div class="case-study-subheader-text">Rapid prototyping</div>
+            <div class="case-study-image-row">
+                <div><img src="pictures/Engs/second-prototype.svg"></div>
+                <div><img src="pictures/Engs/third-prototype.svg"></div>
+            </div>
+
+            <div class="case-study-body-text">
+                <p>
+                After deciding that the “cleaning box” solution was the avenue that we wanted to take, we began rapidly prototyping. We started with a looks-like prototype that helped us determine how this 
+                “box” would fit around the handle. From this iteration we realized that having <b>a more rectangular shape</b> would better fit on fuel dispensers and hold the interior parts. We decided that the 
+                battery, arduino, and peristaltic pump would sit flat on the top of the frame, while the ethanol storage container would be housed on the side. We sketched out this model first on paper, 
+                using measurements from an actual gas station, and then built our third prototype.
+                </p>
+            </div>
+
+            <div class="case-study-header">Testing the product</div>
+            <div class="case-study-body-text">
+                Because we only had 10 weeks for this project, we prototyped and tested in tandem, to make sure our product met the specifications we laid out at the beginning of the term. 
+            </div>
+
+            <div class="case-study-subheader">Is it effective? </div>
+            <div class="case-study-body-text">
+                <p>
+                To test efficacy, we needed to determine both whether the ethanol spray covers the entire gas pump handle and whether ethanol completely kills viruses once on the handle surface. 
+                Due to legal implications of testing with COVID-19 virus samples, we were unable to test whether our product actually kills COVID-19 from the pump’s surface. However, based on our 
+                research and conversations with current gas station employees, we concluded that 80% ethanol sprayed for 10 seconds (as our product does) will kill COVID-19. 
+                </p>
+            </div>
+
+            <div class="case-study-image-row">
+                <div><img src="/pictures/Engs/ethanol-radius.svg"></div>
+                <div>
+                    <p>
+                    To test the spray coverage, we wrapped the gas nozzle in white paper towels and used our prototype to simulate a real life test. The orange-colored part is where the 
+                    dyed ethanol was sprayed onto the handle. We found that our prototype covered the majority of the nozzle that is touched by drivers. Moreover, given current sanitation 
+                    of nozzles only occurs once every few hours, our solution will be more effective regardless since it cleans the majority of the handle in <b>between each fill. </b>
+                    </p>
+                </div>
+            </div>
+
+            <div class="case-study-subheader">Is it low-maintenance?</div>
+            <div class="case-study-body-text">
+                One of the main pain points we identified from our user research was that many gas station owners don’t have the ability to sanitize gas pump handles becuase they are 
+                busy with other responsibilities such as serving customers. As such, we wanted to test how frequent our prdouct would have to be maintained and whether it addressed this concern. 
+            </div>
+
+            <div class="case-study-images"><img src="pictures/Engs/refill-calculations.svg"></div>
+            <div class="case-study-body-text">
+                <p>
+                    Based on the size of our product and the amount of ethanol it takes to sanitize the pump handle, our product can service about 94 customers before requiring an employee 
+                    to refill the ethanol tank. Since a gas station can have at maximum around 100 customers per day, <b>our product only has to be replaced once a day at most,</b> requiring much 
+                    less maintenance than current methods.
+                </p>
+            </div>
+
+            <div class="case-study-subheader">Is it fast?</div>
+            <div class="case-study-body-text">
+                <p>
+                    We wanted to make sure that our sanitizing mechanism was fast enough to sanitize in between every two drivers that fill up their gas tank. Based on an experiment that we conducted 
+                    at a local gas station, we determined that there is <b>at minimum a 55 second window time frame</b> between two people pumping gas at a single fuel dispenser. 
+                </p>
+            </div>
+
+            <div class="case-study-images"><img src="pictures/Engs/time-window.svg"></div>
+            <div class="case-study-body-text">
+                To test the speed of our sanitation method, we simulated the ethanol spray under two extreme conditions: during mid-afternoon when the sun is shining the hardest and during a 
+                colder night. Ideally, we would have liked to test this under a wider variety of climate conditions (different altitudes, temperatures, humitidy levels, etc.), however we were 
+                faced with the limitation of testing at home. Thus, we just focused on these two “extremes” and measured the amount of time it took the ethanol to dry by using a piece of tissue 
+                paper dabbed onto the surface of the handle after it was sprayed. 
+            </div>
+
+            <div class="case-study-images"><img src="pictures/Engs/tissue-test.svg"></div>
+
+            <div class="case-study-body-text">
+                <p>
+                From this experiment, we found that the range of drying time for ethanol was between 15 and 45 seconds. Since our time window between two cars getting gas is 55 seconds (at minimum), 
+                we concluded that <b>the dry rate of ethanol is quick enough without the necessity of an extra drying fan mechanism.</b> The 55 second time window only occurs during peak hours, 
+                and even if the ethanol dry time does take longer (due to harsher climate conditions), we don’t forsee there being a huge issue with users touching a slightly wet gas pump handle, 
+                if they know that the handle they are touching is completely sanitized.
+                </p>
+            </div>
+
+            <div class="case-study-header">The final product</div>
+            <div class="case-study-body-text">
+                Our final product is a plastic frame that fits around the boot where the driver returns their gas pump handle after use. Once the handle is returned, the distance sensor activates 
+                and an ethanol cleaning solutions is sprayed onto the surface of the handle. Below are demonstrations of our prototype in action as well as a SolidWorks model of the internal parts. 
+            </div>
+            <div class="case-study-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9p2DGlGSPmg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="case-study-captions">Final product video</div>
+
+            <div class="case-study-header">What we learned</div>
+            <div class="case-study-body-text">
+                This class was an incredibly rewarding learning opportunity, in terms of the technical skills I learned, but also regarding product design and building a business with potential in the real world. 
+                I never would have thought that I would be capable of being the SolidWorks designer for my group or develop an industry relationship with Husky, the largest gas nozzle manufacturer in the United States. 
+                Further, working with two groupmates that were equally passionate about this project and had complementary skillsets, pushed me to contribute more to the project and challenge different possibilties. 
+                I’m excited to see where this project takes us next! 
+            </div>
+
+            <div class="case-study-images"><img src="pictures/Engs/Team-pic.svg"></div>
+            <div class="case-study-captions">Me and my wonderful team making a gas nozzle heart &#60;3</div>
+
+        </div>
+    </body>
+    <footer>
+        <div class="footer-row">
+            <div class="footer-contact">
+                <div>Get in touch!</div>
+                <div class="footer-contact-logos">
+                    <a href="https://www.linkedin.com/in/sophie-wang-6050a5185/" target="_blank"><img src="pictures/home/Linkedin.svg" /></a>
+                    <a href="mailto:Sophie.Wang.22@dartmouth.edu"><img src="pictures/home/Mail.svg" /></a>
+                </div>
+
+            </div>
+            <div class="footer-logo">
+                <img src="pictures/home/Name.svg"/>
+            </div>
+        </div>
+    </footer>
 </html>
