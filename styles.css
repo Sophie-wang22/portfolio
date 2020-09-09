@@ -15,6 +15,13 @@ body {
   font-family: 'Montserrat';
 }
 
+ul {
+  list-style-type: none;
+  margin: 30px 200px;
+  font-size: 20px;
+  font-style: medium; 
+}
+
 .home {
   background-color: #EBF1F4;
   margin: 0;
@@ -291,13 +298,8 @@ width: 45%;
   flex-direction: row
 }
 
-.case-study-captions {
-  font-size: 14px;
-  padding: 20px;
-}
-
 .case-study-doodle-captions {
-  font-size: 14px;
+  font-size: 16px;
   padding: 20px;
   font-family: 'Gloria Hallelujah';
 }
@@ -307,16 +309,13 @@ width: 45%;
 }
 
 .case-study-video {
-  padding: 20px;
+  padding-top: 50px;
 }
 
 .case-study-quote {
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
+  margin: 40px 250px;
   text-align: center;
-}
-
-.list {
-  list-style-type: none;
 }
