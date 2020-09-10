@@ -13,6 +13,7 @@ nav {
 body {
   background-color: #F7FBFD;
   font-family: 'Montserrat';
+  margin: 0px;
 }
 
 ul {
@@ -20,6 +21,14 @@ ul {
   margin: 30px 200px;
   font-size: 20px;
   font-style: medium; 
+}
+
+b {
+  font-weight: 600;
+}
+
+img {
+  object-fit: contain;
 }
 
 .home {
@@ -216,19 +225,20 @@ width: 45%;
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 10px;
-  padding-bottom: 10px
+  padding-bottom: 5px
 }
 
 .about-me-image-row {
   flex-direction: row;
   justify-content: space-between;
-  padding: 75px 180px; 
+  padding: 40px 180px; 
   }
 
   .about-me-doodle-captions {
-    font-size: 16px;
-    padding: 10px;
+    font-size: 14px;
+    padding: 10px 25px;
     font-family: 'Gloria Hallelujah';
+    text-align: center;
     
   }
 
@@ -236,6 +246,11 @@ width: 45%;
   object-fit: contain; 
   padding-top: 10px;
   padding-bottom: 20px;
+}
+
+#rv-picture {
+  padding-left:50px;
+  padding-right: 100px;
 }
 
 /** CASE STUDIES **/
@@ -247,6 +262,20 @@ width: 45%;
   font-size: 16px;
   line-height: 26px;
   margin: 0px 200px;
+}
+
+.right-half {
+  margin-left: 0px;
+}
+
+.left-half {
+  margin-left: 200px; 
+  padding-left: 0 !important;
+}
+
+.short-top-margin {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .case-study-header-text{
@@ -281,6 +310,8 @@ width: 45%;
   object-fit: contain;
   padding-top: 20px;
   padding-bottom: 50px;
+  display: block;
+  text-align: center;
 }
 
 .case-study-image-row {
@@ -306,11 +337,14 @@ width: 45%;
   font-size: 16px;
   padding: 20px;
   font-family: 'Gloria Hallelujah';
+  max-width: 50%;
+  text-align: center;
+  align-self: center;
   
 }
 
 .case-study-links {
-  text-decoration: none;
+  : none;
 }
 
 .case-study-video {
@@ -324,3 +358,4 @@ width: 45%;
   margin: 40px 250px;
   text-align: center;
 }
+
