@@ -131,11 +131,11 @@ font-weight: 600px;
 .footer-contact-logos {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  padding: 7px 20px;
 }
 
 .footer-contact-logos a:not(:first-child) {
-  margin-left: 10px;
+  margin-left: 22px;
 }
 
 
@@ -153,12 +153,12 @@ background-color: #EBF1F4;
 .home-project-row {
 flex-direction: row;
 justify-content: space-between;
-padding: 75px 180px; 
+padding: 100px 180px; 
 }
 
 .home-project-row:nth-child(1){
-margin-top: -180px;
-padding-top: 200px;
+margin-top: -50px;
+padding-top: 180px;
 background: linear-gradient(180deg, #EBF1F4 8.63%, #F7FBFD 19.15%);
 }
 
@@ -360,6 +360,15 @@ width: 45%;
   text-align: center;
 }
 /** PROJECTS **/
+.project-header {
+  justify-content: flex-start;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+  margin-bottom:10px;
+}
 
 
 .project-subheading {
