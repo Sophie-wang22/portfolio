@@ -232,12 +232,17 @@ width: 45%;
 .about-me-image-row {
   flex-direction: row;
   justify-content: space-between;
-  padding: 35px 200px; 
+  padding: 35px 220px; 
   }
 
+.about-me-image-row-index {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .about-me-doodle-captions {
-  font-size: 14px;
-  padding: 15px 50px;
+  font-size: 12px;
+  padding-top: 15px;
   font-family: 'Gloria Hallelujah';
   text-align: left;
   
